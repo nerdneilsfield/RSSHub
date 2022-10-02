@@ -143,7 +143,9 @@
     "tunnel": "0.0.6",
     "twitter-api-v2": "1.12.7",
     "winston": "3.8.2",
-    "xml2js": "0.4.23"
+    "xml2js": "0.4.23",
+    "yaml": "^2.1.1",
+    "yml": "^1.0.0"
   },
   "jest": {
     "testMatch": [
