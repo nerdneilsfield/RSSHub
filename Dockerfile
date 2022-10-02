@@ -15,7 +15,7 @@ RUN \
         yarn config set registry https://registry.npmmirror.com ; \
     fi;
 
-COPY ./yarn.lock /app/
+# COPY ./yarn.lock /app/
 COPY ./package.json /app/
 
 # required for building canvas in arm64 and arm/v7 (introduce in #10954)
